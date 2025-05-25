@@ -1,3 +1,4 @@
+age = input("How old are you? ")
 current_year = 2023
 current_age = 30
 target_year =  2050
