@@ -1,6 +1,6 @@
-income = input("Enter your monthly income")
+income = input("Enter your monthly income: ")
 
-expenses = input("Enter your total monthly expenses") 
+expenses = input("Enter your total monthly expenses: ") 
  
 income = 5000
 expenses = 4000
