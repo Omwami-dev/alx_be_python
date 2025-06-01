@@ -1,4 +1,4 @@
-size = input("Enter the size of the pattern: "))
+size = print(input("Enter the size of the pattern: "))
 i = 1
 while i <= size:
     j = i
