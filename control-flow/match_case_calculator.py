@@ -8,5 +8,5 @@ num2 = input("Enter the second number: ")
 match operation:
     case "add":
         result = num1 + num2
-        print("The results is",(result) )
+        print("The result is",(result) )
         
