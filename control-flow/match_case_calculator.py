@@ -1,9 +1,7 @@
-print(input("Enter the first number: "))
-print(input("Enter the second number: "))
-print(input("Choose the operation (+, -, *, /): "))
 
 num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
+print(input("Choose the operation (+, -, *, /): "))
 
 match operation:
     case "add":
