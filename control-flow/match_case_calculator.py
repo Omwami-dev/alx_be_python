@@ -5,7 +5,8 @@ print(input("Choose the operation (+, -, *, /): "))
 num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
 
-match operation:
+match "operation":
     case "add":
         result = num1 + num2
-        print("The results is ", num1 + num2 )
+        print("The results is ", (result) )
+        
