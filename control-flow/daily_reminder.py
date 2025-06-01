@@ -2,7 +2,7 @@ task = print(input("Enter your task: "))
 priority = print(input("Priority (high/medium/low): "))
 time_bound = print(input("Is it time-bound? (yes/no): "))
 value = "high"
-match value:
+match priority:
     case "high":
         print("high priority")
     case "medium":
