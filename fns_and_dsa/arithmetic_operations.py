@@ -11,5 +11,5 @@ def main():
     operation = input("Enter the operation(add, subtract, multiply, divide): ")
     result = perform_operation(num1, num2=)
     print(f"Result: {result}")
-
+if arithmetic_operation.py == main
 
