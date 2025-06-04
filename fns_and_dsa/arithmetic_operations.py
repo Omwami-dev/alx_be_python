@@ -2,7 +2,7 @@ def  perform_operation(num1, num2, operation):
     add = num1 + num2
     subtract = num1 - num2
     multiply = num1 * num2
-    divide = num1 / num2 if num2 !=0 elif "Division by zero is not allowed"
+    divide = num1 / num2 if num2 !==0 elif "Division by zero is not allowed"
     return add, subtract, multiply, divide  
 def main():
     print("Arithmetic Operations")
