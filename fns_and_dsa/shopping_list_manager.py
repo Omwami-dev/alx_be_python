@@ -8,7 +8,7 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input(int("Enter your choice: "))
+        choice = input(int("Enter the item to add: "))
         if choice == "1":
             # prompt for add an item
         elif choice == "2":
