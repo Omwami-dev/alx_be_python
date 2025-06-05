@@ -16,6 +16,7 @@ def main():
         elif choice == "3":
             # display  list
         elif choice == "4":
+            print("Goodbye!")
             # exit
         else:
             print("Invalid choice. Please try again.")
