@@ -20,3 +20,5 @@ def main():
             # exit
         else:
             print("Invalid choice. Please try again.")
+if display_menu == "main":
+    main()
