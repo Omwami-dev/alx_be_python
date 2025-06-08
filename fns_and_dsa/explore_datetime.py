@@ -12,9 +12,9 @@ def calculate_future_date():
     #call current_date variable
     current_date = datetime.now()
     # use current_date to calculate future date
-    future_data = current_date + timedelta(days=number_of_days)
+    future_date = current_date + timedelta(days=number_of_days)
     # print future date in form of Y-m-d
-    print("Future date: ",future_data.strftime("%Y-%m-%d"))
+    print("Future date: ",future_date.strftime("%Y-%m-%d"))
 if __name__== "_main_":
      display_current_datetime()
      calculate_future_date()
