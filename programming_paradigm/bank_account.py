@@ -11,10 +11,10 @@ class BankAccount:
         #Returns True if the transaction is successful, False otherwise.
         self._account_balance = amount
         if amount > self._account_balance:
-            return False
+            return "Insufficient funds."
         self._account_balance =- amount
         return True
     def display_balance():
         #return curent balance in the account in a friendly manner.
-        return f"Current Balance: ${self._account_balance:.2f}"
+        return f"Current Balance: {self.__account_balance}"
 
