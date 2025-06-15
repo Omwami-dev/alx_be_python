@@ -17,4 +17,4 @@ class BankAccount:
         return False 
     def display_balance():
         #return curent balance in the account in a friendly manner.
-        return f"Current Balance: ${self.__account_balance:.2f}"
+        return f"Current Balance: ${self.__account_balance}"
