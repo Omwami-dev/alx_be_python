@@ -26,6 +26,5 @@ def main():
             print(account.display_balance())
         else:
             print("Invalid command.")
-    
 if __name__ == "__main__":
     main()
