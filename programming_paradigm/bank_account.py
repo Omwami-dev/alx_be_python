@@ -11,7 +11,7 @@ class BankAccount:
         #Deduct the specified amount from the account balance if funds are sufficient.
         #Returns True if the transaction is successful, False otherwise.
         self._account_balance = amount
-        if amount > self._account_balance:
+        if amount >self._account_balance:
             print ("Insufficient funds.")
         self._account_balance =- amount
         return False 
