@@ -14,10 +14,8 @@ class BankAccount:
         if amount > self._account_balance:
             return "Insufficient funds."
         self._account_balance =- amount
-        else:
-            return True
+        return True
     def display_balance():
         #return curent balance in the account in a friendly manner.
-         self._account_balance = amount
         return f"Current Balance: {self.__account_balance}"
 
