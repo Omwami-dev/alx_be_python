@@ -4,8 +4,9 @@ class BankAccount:
     def deposit(self,amount):
         if amount > 0:
             self._account_balance += amount
-            raise ValueError
-        ValueError
+        else:
+            #raise valueError
+            raise ValueError    
     def withdraw(self,amount):
         #Deduct the specified amount from the account balance if funds are sufficient.
         #Returns True if the transaction is successful, False otherwise.
