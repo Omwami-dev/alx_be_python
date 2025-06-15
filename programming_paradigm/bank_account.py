@@ -12,7 +12,7 @@ class BankAccount:
         #Returns True if the transaction is successful, False otherwise.
         self._account_balance = amount
         if amount >self._account_balance:
-            print ("Insufficient funds.")
+            return True
         self._account_balance =- amount
         return False 
     def display_balance():
