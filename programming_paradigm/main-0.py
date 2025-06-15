@@ -1,5 +1,6 @@
 from bank_account import BankAccount
 def main():
+    account = BankAccount(100)
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <operation> [amount]")
         print("Operations: deposit, withdraw, display_balance")
