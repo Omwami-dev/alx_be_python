@@ -20,6 +20,7 @@ class Book:
          def __init__(self):
              self._books = []
              def check_out_book(self, title):
+                self.tittle = title
                 for book in self._books:
                  if book.title == title:
                   if book.check_out():
