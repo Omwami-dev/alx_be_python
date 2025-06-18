@@ -35,10 +35,10 @@ class Book:
         for book in self._books:
             if book.title == title:
                 if book.return_book():
-                    print(f"'{title}' has been returned.")
+                    print(f"'{title}' return book.")
                     return
                 else:
-                    print(f"'{title}' was not checked out.")
+                    print(f"'{title}' checked out book.")
                     return
         print(f"'{title}' not found in the library.")
 
