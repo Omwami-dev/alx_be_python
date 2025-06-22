@@ -4,6 +4,15 @@ class Book:
         self.author = author
     def __str__(self):
         return f"'{self.title}' by {self.author}"
+class EBook(Book):
+
+    def __init__(self, title: str, author: str, file_size: int):
+        super().__init__(title, author)
+        self.file_size = file_size  # Size in MB
+
+    def __str__(self):
+        return f"EBook: {super().__str__()} [File Size: {self.file_size} MB]"
+
 class PrintBook(Book):
     def __init__(self, title: str, author: str, page_count: int):
         super().__init__(title, author)
