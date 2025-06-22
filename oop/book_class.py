@@ -11,7 +11,7 @@ class Book:
         return f"Book('{self.title}', '{self.author}', {self.year})"
 from book_class import Book
 def main():
-    my_book= Book("1984", "George Orwell", 1949)
+    my_book = Book("1984", "George Orwell", 1949)
     print(my_book)
     print(repr(my_book))
     del my_book
