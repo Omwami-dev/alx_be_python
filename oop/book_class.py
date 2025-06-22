@@ -3,7 +3,7 @@ class Book:
         self.title = title
         self.author = author
         self.year  = year
-    def _del_(self):
+    def __del__(self):
         print( "Deleting (title of the book)")
     def __str__(self):
         return f"'{self.title}' by '{self.author}', published in '{self.year}'"
